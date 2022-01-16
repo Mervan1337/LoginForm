@@ -1,0 +1,60 @@
+html {
+    background-color: navajowhite !important;
+}
+ul, ol {
+    list-style-type: none;
+}
+li {
+    font-size: 30px;
+}
+p {
+    font-size: 35px;
+}
+a {
+    color: red;
+}
+#online {
+    color: green;
+    font-weight: bold;
+}
+#delete {
+    color: red;
+    font-weight: bold;
+}
+input[type=text] {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+input[type=password] {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+input[type=submit] {
+    margin-top: 7px;
+    text-align: center;
+    width: 5%;
+    padding: 3px 5px;
+}
+input[type=number] {
+    width: 5%;  
+    text-align: center;
+    padding: 3px 5px;
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: black 2px solid;
+    padding: 5px 5px;
+    text-align: center;
+}
